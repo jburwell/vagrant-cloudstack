@@ -1,0 +1,15 @@
+# OS-specific
+.DS_Store
+
+# Vim files
+*.swp
+
+# Bundler/Rubygems
+*.gem
+.bundle
+pkg/*
+tags
+
+# Vagrant
+.vagrant
+Vagrantfile
