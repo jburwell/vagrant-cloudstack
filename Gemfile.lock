@@ -15,12 +15,14 @@ PATH
   remote: .
   specs:
     vagrant-cloudstack (0.1.0)
+      cloudstack_ruby_client (= 0.0.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
     childprocess (0.3.9)
       ffi (~> 1.0, >= 1.0.11)
+    cloudstack_ruby_client (0.0.4)
     erubis (2.7.0)
     ffi (1.8.1)
     i18n (0.6.4)
@@ -35,6 +37,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cloudstack_ruby_client (= 0.0.4)
   rake
   vagrant!
   vagrant-cloudstack!

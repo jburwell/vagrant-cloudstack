@@ -15,6 +15,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = "vagrant-cloudstack"
 
+  s.add_runtime_dependency "cloudstack_ruby_client", "= 0.0.4"
+
   s.add_development_dependency "rake"
 
   root_path = File.dirname(__FILE__)
